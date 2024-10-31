@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubereats</title>
+    <link rel="stylesheet" href="uber.css">
+    <script src="uber.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+<div class="container">
+    <div class="menu-container">
+    <button id="menubutton" onclick="togglemenu()">
+        &#9776
+    </button>
+</div>
+<div id="menudropdown" class="dropdown" >
+    <a  href="#"><button id="signup">Sign up</button></a>
+    <a href="#"><button id="login">Log in</button></a>
+    <a href="#">Create a business account</a>
+    <a href="#">Add your restaurant</a>
+    <a href="#">Sign up to deliver</a>
+</div>
+    <div class="logo">
+        <a class="logo2" href=""><span>Uber</span><span style="font-weight: 600;">  Eats</span></a>
+    </div>
+    <div class="enter">
+        <a  class="enter1" href=""><img class="img1" src="uberimages/icons8-location-16 (1).png"alt="">Enter delivery address <select name="" id="selector"></select></a>
+    </div>
+<div class="button">
+<a href=""><button class="but1" > Log in </button></a>
+<a href=""><button class="but2">Sign up</button></a>
+</div>
+</div>
+        </nav>
+        <div ><h1 class="order">Order delivery near you</h1></div>
+        <div class="inputs">
+           <div class="input"><img class="input img" src="uberimages/icons8-location-16 (2).png" alt=""><input type="search" id="enter" placeholder="Enter delivery address">
+        </div>
+           <div class="now" >
+            <a class="nows" href=""><img class="now img" src="uberimages/icons8-clock-16.png" alt="">Deliver now <select name="" id="selector2"></select></a>
+           </div>
+           <div class="here">
+            <a class="heres" href="">Search here</a>
+           </div>
+           </div>
+           <div class="Sign">
+            <p>Or</p><a class="in" href="">Sign In</a>
+           </div>
+    </header>
+    <main>
+        <div class="images">
+            <div class="employ">
+                <a href=""><img class="web" src="uberimages/employee.webp" alt=""></a>
+                <h2>Feed your employees</h2>
+                <p style="text-decoration: underline;">Create a business account</p>
+            </div>
+            <div class="employ2">
+                <a href=""><img class="web2" src="uberimages/flyer.webp" alt=""></a>
+                <h2>Your restaurant, delivered</h2>
+                <p style="text-decoration: underline;">Add your restaurant</p>
+            </div>
+            <div class="employ3">
+                <a href=""><img class="web3" src="uberimages/delivery guy.webp" alt=""></a>
+                <h2>Deliver with Uber Eats</h2>
+                <p style="text-decoration: underline;">Sign up to deliver</p>
+            </div>
+           </div>
+           <div class="map">
+            <h1 class="city">Cities near me</h1>
+            <a class="view500" href="">View all 500+ cities</a>
+           </div>
+           <div class="picsmap">
+            <a href=""><img class="maps" src="uberimages/Screenshot_24-10-2024_221349_www.ubereats.com.jpeg" alt=""></a>
+           </div>
+           <div class="lists">
+            <ul>
+                <li class="list"><a id="lis" href="">Akron</a></li>
+                <li class="list"><a id="lis" href="">Albuquerque</a></li>
+                <li class="list" ><a id="lis" href="">bridgeport</a></li>
+                <li class="list"><a id="lis" href="">Concord</a></li>
+                <li class="list"><a id="lis" href="">Dayton</a></li>
+                <li class="list"><a id="lis" href="">EI Paso</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">Hartford</a></li>
+                <li class="list"><a id="lis" href="">Houston</a></li>
+                <li class="list"><a id="lis" href="">Indianapolis</a></li>
+                <li class="list"><a id="lis" href="">Indianapolis</a></li>
+                <li class="list"><a id="lis" href="">McAllen</a></li>
+                <li class="list"><a id="lis" href="">Mesa</a></li>
+                <li class="list"><a id="lis" href="">Milwaukee</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">Nashville</a></li>
+                <li class="list"><a id="lis" href="">New Orleans</a></li>
+                <li class="list"><a id="lis" href="">Oklahoma City</a></li>
+                <li class="list"><a id="lis" href="">Omaha</a></li>
+                <li class="list"><a id="lis" href="">Orlando</a></li>
+                <li class="list"><a id="lis" href="">Palm Bay</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">Providence</a></li>
+                <li class="list"><a id="lis" href="">Queens</a></li>
+                <li class="list"><a id="lis" href="">San Antonio</a></li>
+                <li class="list"><a id="lis" href="">Stony Brook</a></li>
+                <li class="list"><a id="lis" href="">Tucson</a></li>
+                <li class="list"><a id="lis" href="">West Hollywood</a></li>
+            </ul>
+           </div>
+           <div class="country">
+            <h1 class="countries">Countries with Uber Eats</h1>
+            <a class="view" href="">View all countries</a>
+           </div>
+           <div class="lists">
+            <ul>
+                <li class="list"><a id="lis" href="">Australia</a></li>
+                <li class="list"><a id="lis" href="">Belgium</a></li>
+                <li class="list"><a id="lis" href="">Canada</a></li>
+                <li class="list"><a id="lis" href="">Chile</a></li>
+                <li class="list"><a id="lis" href="">Costa Rica</a></li>
+                <li class="list"><a id="lis" href="">Dominican Republic</a></li>
+                <li class="list"><a id="lis" href="">Ecuador</a></li>
+                <li class="list"><a id="lis" href="">EI Salvador</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">France</a></li>
+                <li class="list"><a id="lis" href="">Germany</a></li>
+                <li class="list"><a id="lis" href="">Guatemala</a></li>
+                <li class="list"><a id="lis" href="">Ireland</a></li>
+                <li class="list"><a id="lis" href="">Italy</a></li>
+                <li class="list"><a id="lis" href="">Japan</a></li>
+                <li class="list"><a id="lis" href="">Kenya</a></li>
+                <li class="list"><a id="lis" href="">Luxembourg</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">Mexico</a></li>
+                <li class="list"><a id="lis" href="">Netherlands</a></li>
+                <li class="list"><a id="lis" href="">New zealand</a></li>
+                <li class="list"><a id="lis" href="">Panama</a></li>
+                <li class="list"><a id="lis" href="">Poland</a></li>
+                <li class="list"><a id="lis" href="">Portugal</a></li>
+                <li class="list"><a id="lis" href="">South Africa</a></li>
+                <li class="list"><a id="lis" href="">Spain</a></li>
+            </ul>
+            <ul>
+                <li class="list"><a id="lis" href="">Sri Lanka</a></li>
+                <li class="list"><a id="lis" href="">Sweden</a></li>
+                <li class="list"><a id="lis" href="">Switzerland</a></li>
+                <li class="list"><a id="lis" href="">Taiwan(ROC)</a></li>
+                <li class="list"><a id="lis" href="">United Kingdom</a></li>
+                <li class="list"><a id="lis" href="">United States</a></li>
+            </ul>
+           </div>
+    </main>
+    <hr >
+    <footer>
+        <div class="foot0">
+        <div class="foot">
+          <div class="span">
+            <p>Uber <span class="spans"> Eats</span></p>
+          </div>
+          <div class="footgoogle">
+            <div class="apple">
+            <a style="display: flex; text-decoration: none; " href=""
+              ><img class="appleimg" src="uberimages/icons8-apple-16.png" alt="" width="30px" height="30px" />
+              <div class="appletext">
+                <p class="appletext1">Download on the</p>
+                <h3 class="appletext2">App Store</h3>
+              </div></a>
+          </div>
+          <div class="playstore">
+            <a style="display: flex; text-decoration: none;" href=""><img class="playimg" src="uberimages/icons8-google-play-16.png" alt="" width="30px" height="30px"/>
+              <div class="playtext">
+                <p class="playtext1">GET IT ON</p>
+                <h4 class="playtext2">Google Play</h4>
+              </div></a>
+          </div>
+        </div>
+        </div>
+        <div>
+            <ul>
+                <li class="lister"><a id="lis" href="">Get help</a></li>
+                <li class="lister"><a id="lis" href="">Buy  gift cards</a></li>
+                <li class="lister"><a id="lis" href="">Add your restaurant</a></li>
+                <li class="lister"><a id="lis" href="">Sign up to delivery</a></li>
+                <li class="lister"><a id="lis" href="">Create a business account</a></li>
+                <li class="lister"><a id="lis" href="">Promotion</a></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li class="listers"><a id="lis" href="">Restaurants near me</a></li>
+                <li class="listers"><a id="lis" href="">View all cities</a></li>
+                <li class="listers"><a id="lis" href="">View all countries</a></li>
+                <li class="listers"><a id="lis" href="">pickup near me </a></li>
+                <li class="listers"><a id="lis" href="">About Solo Eats</a></li>
+                <li class="listers"><a id="lis" href="">Shop groceries</a></li>
+                <li class="listers"><a id="lis" href="">English</a></li>
+            </ul>
+        </div>
+      </div>
+      <hr class="footdivide">
+      <div>
+        <img src="" alt="">
+      </div>
+    </footer>
+</body>
+</html>
