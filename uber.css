@@ -248,6 +248,7 @@ cursor: pointer;
     display: flex;
     margin-top: 50px;
     padding-bottom: 150px;
+    flex-direction: row;
   }
 .employ{
   display: block;
@@ -432,7 +433,192 @@ hr{
   text-decoration: underline;
 }
 .footdivide{
-  width: 40%;
-  /* padding-left: 1000px; */
+  width: 100%;
+  margin-bottom: 60px;
 }
-/* this is an update to the project */
+.foot2{
+  display: flex;
+  /* justify-content: space-evenly; */
+  margin-bottom: 25px;
+}
+.footimage{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 50px;
+  width: 20px;
+  height: 20px;
+}
+.footpolicy{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding-left: 650px;
+}
+.Terms{
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+}
+.Terms:hover{
+  text-decoration: underline;
+}
+.foot3{
+  font-size: 14px;
+  margin-left: 450px;
+  margin-bottom: 200px;
+}
+/* for phone screen size*/
+@media screen and (max-width: 767px){
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .order{
+    margin-top: 100px;
+    margin-left: 40px ;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  .inputs{
+    display: flex;
+    flex-direction: column;
+gap: 10px;
+  }
+  header{
+    background-image: url(uberimages/view-3d-burger-meal-with-french-fries.jpg);
+    height: 60vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+/* background-position: ; */
+margin-top: 0px;
+top: 0;
+}
+nav{
+  width: 100%;}
+  .button {
+    margin-left: 70px;
+    padding-top: 10px;
+  }
+   .enter{
+    display: none;
+  }
+  .images{
+    display: block;
+    margin-left: 20px;
+  }
+  .city{
+    margin-left: 20px;
+    font-size: 27px;
+  }
+  .view500{
+    display: none;
+  }
+  .maps{
+    width: 400px;
+    height: 350px;
+  }
+  .picsmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .lists{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 40px;
+    padding-bottom: 70px;
+    margin-right: 0px;
+    flex-direction: column;
+  }
+  .list{
+    list-style: none;
+    font-size: 16px;
+    padding-bottom: 28px;
+    margin-left: 20px;
+    margin-right: 0px;
+
+  }
+  .view{
+    display: none;
+  }
+  .countries{
+    /* margin-right: 550px; */
+    margin-left: 20px;
+    font-size: 35px;
+    margin-right: 0px;
+  }
+  .country{
+    display: inline-block;
+  }
+  .foot0{
+    display: block;
+  }
+  .foot{
+    display: flex;
+    /* flex-direction: column; */
+    /* gap: 50px; */
+    margin-left: 25px;
+  }
+  .span{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 20px;
+  }
+  .join{
+    display: flex;
+    margin-top: 20px;
+    /* margin-left: 10px; */
+    /* padding-left: 0px; */
+  }
+  .lister{
+    margin-left: 15px;
+  
+  }
+  .listers{
+    margin-left: 50px;
+  }
+  .flex{
+    display: flex;
+  }
+  .footpolicy{
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap: 10px;
+    padding-left: 0px;
+  }
+  .foot3{
+    font-size: 14px;
+    margin-left: 0px;
+    margin-bottom: 200px;
+    display: block;
+  }
+  /* span{
+    display: block;
+    padding-top: 15px;
+    padding-left: 0px;
+  } */
+  #enter{
+    width:250px;
+    margin-left: 0px;
+  }
+  .now{
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+  }
+  .input{
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+
+  }
+  .here{
+    width: 330px;
+    margin-top: 0px;
+  }
+  .
+}
