@@ -464,19 +464,24 @@ hr{
   text-decoration: underline;
 }
 .foot3{
+  display: flex;
+  flex-direction: row;
   font-size: 14px;
   margin-left: 450px;
   margin-bottom: 200px;
 }
+
+
 /* for phone screen size*/
 @media screen and (max-width: 767px){
   body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
   }
   .order{
     margin-top: 100px;
     margin-left: 40px ;
-    font-size: 20px;
+    font-size: 23px;
     color: black;
     font-weight: 600;
     margin-bottom: 20px;
@@ -486,10 +491,15 @@ hr{
     flex-direction: column;
 gap: 10px;
   }
+  .input{
+    margin-left: 0px;
+    size: 40px;
+  }
   header{
     background-image: url(uberimages/view-3d-burger-meal-with-french-fries.jpg);
-    height: 50vh;
+    height: 100vh;
     background-size: cover;
+  width: 100%;
     background-position: center;
     background-repeat: no-repeat;
 /* background-position: ; */
@@ -502,12 +512,14 @@ nav{
     margin-left: 70px;
     padding-top: 10px;
   }
+  .but1{
+    display: none;
+  }
    .enter{
     display: none;
   }
   .images{
     display: block;
-    margin-left: 20px;
   }
   .city{
     margin-left: 20px;
@@ -517,8 +529,8 @@ nav{
     display: none;
   }
   .maps{
-    width: 400px;
-    height: 350px;
+    width: 370px;
+    height: 330px;
   }
   .picsmap{
     display: flex;
@@ -561,7 +573,7 @@ nav{
     display: flex;
     /* flex-direction: column; */
     /* gap: 50px; */
-    margin-left: 25px;
+    margin-left: 20px;
   }
   .span{
     font-size: 30px;
@@ -569,7 +581,7 @@ nav{
     padding-bottom: 20px;
   }
   .join{
-    display: flex;
+    display: block;
     margin-top: 20px;
     /* margin-left: 10px; */
     /* padding-left: 0px; */
@@ -579,23 +591,36 @@ nav{
   
   }
   .listers{
-    margin-left: 50px;
+    margin-left: 15px;
   }
   .flex{
     display: flex;
+    justify-content: space-evenly;
+  }
+  .flexs{
+    display: none;
   }
   .footpolicy{
     display: flex;
     flex-direction: column;
     padding-top: 40px;
-    gap: 10px;
-    padding-left: 0px;
+    padding-left: 20px;
+    gap: 0px;
+  
+  }
+  .foot2{
+display: block;
+margin-left: 0px;
+  }
+  .footimage{
+    padding-left: 20px;
   }
   .foot3{
     font-size: 14px;
-    margin-left: 0px;
+    margin-left: 10px;
     margin-bottom: 200px;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   /* span{
     display: block;
@@ -622,4 +647,33 @@ nav{
     margin-top: 0px;
   }
   
+}.employ{
+  display: block;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.web{
+  height: 240px;
+  width: 370px;
+  /* margin-right: 20px; */
+}
+.employ2{
+  display: block;
+  cursor: pointer;
+  /* margin-left: 20px; */
+}
+.web2{
+  height: 240px;
+  width: 370px;
+  /* margin-right: 20px; */
+}
+.employ3{
+  display: block;
+  cursor: pointer;
+  /* margin-left: 20px; */
+}
+.web3{
+  height: 240px;
+  width: 370px;
+  /* margin-right: 20px; */
 }
